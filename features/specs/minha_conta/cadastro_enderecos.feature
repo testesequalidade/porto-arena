@@ -2,14 +2,14 @@
 
 Funcionalidade: Cadastro de Endereços
     Sendo um usuario participante autenticado no Programa de Relaciomento 
-    Posso acessar a area Meus Enderecos
+    Posso acessar Meus Enderecos
     Para poder cadastrar novos endereços ou editar endereços existentes na minha conta
 
 Contexto: Cadastro de Endereco
-    Dado que estou logado e acessei minha conta
+    Dado que estou autenticado no Programa de Relacionamento e acessei Meu Endereco
 
-    @adc_endereco #@auth
-    Cenario: Cadastrar Endereco
+  @cadastro_endereco 
+  Cenario: Cadastrar Endereco
         Quando cadastro um novo endereco com os dados:
           | cep         | 30150300           |
           | rua         | Praca Hugo Werneck |
