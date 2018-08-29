@@ -6,7 +6,7 @@ Funcionalidade: Minha Conta
     Para poder visualizar minhas informacoes pessoais
 
 @minha_conta 
-Cenario: Visualizar Informacoes Minha Conta
+Cenario: Visualizar Informacoes da Minha Conta
     Dado que estou logado no Programa de Relaciomento 
     Quando acesso a Minha Conta
     Então visualizo as seguintes informacoes:
