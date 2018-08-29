@@ -36,6 +36,8 @@ Cenário: Validar obrigatoriedade do nome
     Então devo ver a mensagem de alerta para o nome não informado
       | alerta | Informe o Nome |
 
+      "oi fabi"
+
 
 
     
