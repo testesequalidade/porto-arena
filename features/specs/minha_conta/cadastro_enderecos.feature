@@ -1,8 +1,8 @@
 #language:pt
 
 Funcionalidade: Cadastro de Endereços
-    Sendo um usuario participante do Programa de Relaciomento 
-    Posso acessar o site do Programa
+    Sendo um usuario participante autenticado no Programa de Relaciomento 
+    Posso acessar a area Meus Enderecos
     Para poder cadastrar novos endereços ou editar endereços existentes na minha conta
 
 Contexto: Cadastro de Endereco
